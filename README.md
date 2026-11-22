@@ -36,7 +36,6 @@ The website treats data as a design material rather than just displaying numbers
 - JavaScript
 - fetch() with JSON data from the Open-Meteo API
 
-## Notes
-The site is built to stay within the techniques covered in CCT360 Classes 1–8.
+
 
 
