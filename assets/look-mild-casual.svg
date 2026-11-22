@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 670" role="img" aria-label="mild casual fashion illustration">
+<defs><filter id="sh"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<ellipse cx="305" cy="649" rx="150" ry="13" fill="#574b40" opacity=".12" filter="url(#sh)"/>
+<g transform="translate(13 7) rotate(-2 302 330)">
+<path d="M222 393 Q305 406 386 393 L412 567 L340 575 L302 436 L270 575 L193 568 Z" fill="#647f95" stroke="#5c554f" stroke-width="3"/><path d="M302 408 L302 438" stroke="#5c554f" stroke-width="3"/><path d="M232 432 L280 437 M326 437 L379 432" stroke="white" stroke-width="3" opacity=".23"/>
+<path d="M201 111 L255 88 L300 128 L345 88 L402 111 L448 211 L418 234 L382 165 L386 346 Q300 363 216 346 L219 168 L180 234 L150 212 Z" fill="#bd8f73" stroke="#6c5548" stroke-width="3"/><path d="M257 91 L298 132 L341 91 L322 87 L300 110 L275 86Z" fill="#ece2d0"/><path d="M299 131 L301 352" stroke="#755a4b" stroke-width="2"/><path d="M214 281 L263 285 M336 285 L384 281" fill="none" stroke="#826655" stroke-width="3"/>
+<g transform="translate(0 0)"><path d="M78 526 Q78 503 105 503 L160 503 Q180 503 183 528 L191 589 Q135 607 73 590 Z" fill="#a9846a" stroke="#685347" stroke-width="3"/><path d="M103 505 Q107 460 135 460 Q162 460 166 506" stroke="#685347" stroke-width="6" fill="none"/><path d="M102 547 L160 547" stroke="white" opacity=".35" stroke-width="2"/></g>
+<path d="M268 589 L312 589 Q319 611 335 621 L337 642 Q277 655 257 640 L253 626 Z" fill="#6c4b38" stroke="#564a40" stroke-width="3"/><path d="M345 589 L386 589 L397 625 L417 633 L416 644 Q363 657 339 643 L336 625 Z" fill="#6c4b38" stroke="#564a40" stroke-width="3"/><path d="M257 636 Q291 642 335 637 M342 638 Q373 643 415 637" stroke="#eee5db" stroke-width="4"/>
+</g>
+<g fill="#544f46" font-family="Georgia,serif" font-style="italic" text-anchor="middle"><text x="299" y="56" font-size="21" opacity=".55">The mild edit.</text></g>
+</svg>

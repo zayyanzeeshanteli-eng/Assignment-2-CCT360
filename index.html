@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Weather to Wear: an interactive style forecast driven by live weather data.">
+  <title>Weather to Wear — A Forecast in Fashion</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="mood-neutral">
+  <div class="topline">
+    <span>WTW / LIVE STYLE STUDIO</span>
+    <span>DATA AS EXPERIENCE · CCT360</span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Weather to Wear home">weather<span>to</span>wear<span class="brand-star">✳</span></a>
+    <nav aria-label="Page sections">
+      <a href="#forecast">THE FORECAST</a>
+      <a href="#lookbook">THE LOOKBOOK</a>
+      <a href="#about">THE CONCEPT</a>
+    </nav>
+    <span class="header-tag">YOUR CITY. YOUR CONDITIONS. YOUR LOOK.</span>
+  </header>
+
+  <main>
+    <section class="intro" id="forecast" aria-labelledby="main-title">
+      <div class="eyebrow"><span class="pin-dot"></span> THE EVERYDAY WEATHER EDIT / NO. 001</div>
+      <div class="intro-grid">
+        <div class="intro-copy">
+          <p class="kicker">AN INTERACTIVE STYLE FORECAST</p>
+          <h1 id="main-title">Forecast:<br><em>well dressed.</em></h1>
+          <p class="intro-description">Pick a city and let live weather conditions shape the look. Temperature, precipitation and wind work together with your selected gender and occasion to generate the outfit response.</p>
+
+          <div class="city-control" aria-label="Select a city">
+            <label for="city">01 / PICK YOUR CITY</label>
+            <div class="select-row">
+              <select id="city" aria-label="Choose a city">
+                <option value="0">Toronto, Canada</option>
+                <option value="1">New York, USA</option>
+                <option value="2">London, UK</option>
+                <option value="3">Paris, France</option>
+                <option value="4">Mumbai, India</option>
+                <option value="5">Tokyo, Japan</option>
+                <option value="6">Dubai, UAE</option>
+                <option value="7">Vancouver, Canada</option>
+              </select>
+              <button id="refresh" type="button" class="circle-button" aria-label="Refresh live weather" title="Refresh live weather">↻</button>
+            </div>
+            <p class="micro-copy">CURRENT CONDITIONS, NOT A GENERIC SEASONAL FORECAST.</p>
+          </div>
+        </div>
+
+        <aside class="weather-panel" aria-label="Current live weather">
+          <div class="panel-top"><span>LIVE WEATHER REPORT</span><span class="live-indicator"><span class="live-dot"></span> OPEN-METEO API</span></div>
+          <div class="weather-location" id="display-city">TORONTO / CA</div>
+          <div class="temp-row"><span id="temperature">--</span><span class="temp-unit">°C</span></div>
+          <p class="condition" id="condition">Connecting to the weather...</p>
+          <div class="weather-divider"></div>
+          <div class="stats-grid">
+            <div><span class="stat-label">FEELS LIKE</span><span class="stat-value" id="feels-like">--°C</span></div>
+            <div><span class="stat-label">WIND</span><span class="stat-value" id="wind">-- km/h</span></div>
+            <div><span class="stat-label">HUMIDITY</span><span class="stat-value" id="humidity">--%</span></div>
+          </div>
+          <div class="weather-status" role="status" aria-live="polite" id="status">Fetching live conditions…</div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="lookbook" id="lookbook" aria-labelledby="lookbook-title">
+      <div class="section-heading"><span>02 / THE DAILY EDIT</span><span>LIVE DATA → YOUR OUTFIT</span></div>
+      <div class="lookbook-grid">
+        <div class="look-visual">
+          <div class="visual-head"><span>THE LOOK / <span id="look-number">01</span></span><span id="visual-temp">WEATHER-BASED STYLING</span></div>
+          <div class="visual-stage">
+            <div class="stage-circle"></div>
+            <img id="outfit-image" src="assets/look-mild-casual-women.svg" alt="Illustrated outfit recommendation" width="600" height="670">
+            <div class="stage-side">FORM FOLLOWS FORECAST — 2026 EDITION</div>
+          </div>
+          <div class="visual-foot"><span>YOUR CONDITIONS / YOUR SILHOUETTE</span><span>◉ LIVE EDIT</span></div>
+        </div>
+
+        <div class="look-details">
+          <div class="editorial-top"><span>CURATED BY THE CLIMATE</span><span class="number-circle">✳</span></div>
+          <p class="eyebrow dark">YOUR RECOMMENDED LOOK</p>
+          <h2 id="lookbook-title">Meet your<br><em>weather fit.</em></h2>
+          <h3 id="outfit-name">Waiting for your forecast</h3>
+          <p id="outfit-description">Your outfit will appear as soon as live weather data arrives.</p>
+
+          <div class="selector-block">
+            <p class="field-heading">CHOOSE A GENDER</p>
+            <div class="choice-buttons" role="group" aria-label="Choose a gender">
+              <button id="women" class="choice-btn selected" type="button">WOMEN <span>↗</span></button>
+              <button id="men" class="choice-btn" type="button">MEN <span>↗</span></button>
+            </div>
+          </div>
+
+          <div class="selector-block style-selector">
+            <p class="field-heading">CHOOSE YOUR OCCASION</p>
+            <div class="choice-buttons" role="group" aria-label="Choose outfit style">
+              <button id="casual" class="choice-btn selected" type="button">CASUAL <span>↗</span></button>
+              <button id="formal" class="choice-btn" type="button">DRESSED UP <span>↗</span></button>
+            </div>
+          </div>
+
+          <div class="accessory-block">
+            <span class="field-heading">THE FINISHING TOUCH</span>
+            <div class="accessory-inner">
+              <span class="accessory-glyph" id="accessory-icon">✳</span>
+              <div>
+                <strong id="accessory-name">Weather-ready essentials</strong>
+                <p id="accessory-description">Recommendations update with the forecast.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="look-note"><span>STYLING NOTE /</span><p id="styling-note">Choose a city, gender and occasion, then watch your style edit adapt.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="data-story" aria-label="How the weather shapes your look">
+      <div class="section-heading light"><span>03 / THE DATA BEHIND THE LOOK</span><span>THREE LIVE SIGNALS. ONE STYLE STORY.</span></div>
+      <div class="signal-grid">
+        <article class="signal-card">
+          <span class="signal-index">01 / TEMPERATURE</span>
+          <div class="signal-icon">◒</div>
+          <h3>Layers in motion.</h3>
+          <p>Temperature decides whether the outfit needs heavier structure, everyday layers or airy warm-weather pieces.</p>
+          <div class="signal-graphic"><div id="heat-bar" class="signal-fill"></div></div>
+          <span class="signal-meta" id="temp-signal">AWAITING DATA</span>
+        </article>
+        <article class="signal-card">
+          <span class="signal-index">02 / PRECIPITATION</span>
+          <div class="signal-icon">☂</div>
+          <h3>Details that adapt.</h3>
+          <p>Rain or snow changes the accessory suggestion so the outfit responds to the sky, not only the temperature.</p>
+          <div class="precip-graphic" id="precip-graphic">☀ &nbsp; ◌ &nbsp; ☂</div>
+          <span class="signal-meta" id="rain-signal">AWAITING DATA</span>
+        </article>
+        <article class="signal-card">
+          <span class="signal-index">03 / WIND</span>
+          <div class="signal-icon">≈</div>
+          <h3>Movement matters.</h3>
+          <p>Wind changes the styling note and reinforces when more secure layering makes sense.</p>
+          <div class="signal-graphic"><div id="wind-bar" class="signal-fill wind-fill"></div></div>
+          <span class="signal-meta" id="wind-signal">AWAITING DATA</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div>
+        <p class="eyebrow dark">04 / THE IDEA</p>
+        <h2>Data you can<br><em>actually wear.</em></h2>
+      </div>
+      <div class="about-copy">
+        <p>Weather to Wear turns live numbers into a fashion response. The forecast does not simply appear as text — it selects an outfit illustration, changes the colour atmosphere, and rewrites styling advice based on city, weather, gender and occasion.</p>
+        <p class="source-note">DATA SOURCE: <a href="https://open-meteo.com/en/docs" target="_blank" rel="noopener noreferrer">OPEN-METEO WEATHER API ↗</a> · Forecast-model conditions, not an on-site thermometer. Recommendations are creative styling ideas.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>WEATHER TO WEAR © 2026</span>
+    <span>DESIGNED FOR CCT360 · DATA AS EXPERIENCE</span>
+    <a href="#forecast">BACK TO TOP ↑</a>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

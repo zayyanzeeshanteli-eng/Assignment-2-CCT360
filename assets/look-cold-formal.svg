@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 670" role="img" aria-label="cold formal fashion illustration">
+<defs><filter id="sh"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<ellipse cx="305" cy="649" rx="150" ry="13" fill="#574b40" opacity=".12" filter="url(#sh)"/>
+<g transform="translate(13 7) rotate(-2 302 330)">
+<path d="M222 393 Q305 406 386 393 L412 567 L340 575 L302 436 L270 575 L193 568 Z" fill="#404343" stroke="#5c554f" stroke-width="3"/><path d="M302 408 L302 438" stroke="#5c554f" stroke-width="3"/><path d="M232 432 L280 437 M326 437 L379 432" stroke="white" stroke-width="3" opacity=".23"/>
+<path d="M175 105 L252 64 Q266 59 276 82 L304 114 L342 80 L359 63 L421 103 L463 195 L427 215 L396 169 L397 393 Q302 416 201 393 L204 172 L169 219 L125 194 Z" fill="#9b897d" stroke="#443e39" stroke-width="3"/>
+<path d="M247 75 L297 134 L350 75 L328 65 L302 106 L271 66Z" fill="#e4d8c9" stroke="#50463e" stroke-width="2"/>
+<path d="M299 133 L301 397" stroke="#594e49" stroke-width="3"/><path d="M210 226 L280 226 M324 226 L389 226 M210 268 L280 268 M324 268 L389 268" stroke="white" opacity=".25" stroke-width="5"/><path d="M219 328 L271 333 M326 333 L377 328" stroke="#453e38" stroke-width="3" fill="none"/><g fill="#d4c8b9"><circle cx="315" cy="170" r="4"/><circle cx="315" cy="212" r="4"/><circle cx="315" cy="254" r="4"/><circle cx="315" cy="296" r="4"/></g>
+<g transform="translate(0 0)"><path d="M78 526 Q78 503 105 503 L160 503 Q180 503 183 528 L191 589 Q135 607 73 590 Z" fill="#9e7563" stroke="#685347" stroke-width="3"/><path d="M103 505 Q107 460 135 460 Q162 460 166 506" stroke="#685347" stroke-width="6" fill="none"/><path d="M102 547 L160 547" stroke="white" opacity=".35" stroke-width="2"/></g>
+<path d="M268 589 L312 589 Q319 611 335 621 L337 642 Q277 655 257 640 L253 626 Z" fill="#4b332e" stroke="#564a40" stroke-width="3"/><path d="M345 589 L386 589 L397 625 L417 633 L416 644 Q363 657 339 643 L336 625 Z" fill="#4b332e" stroke="#564a40" stroke-width="3"/><path d="M257 636 Q291 642 335 637 M342 638 Q373 643 415 637" stroke="#eee5db" stroke-width="4"/>
+</g>
+<g fill="#544f46" font-family="Georgia,serif" font-style="italic" text-anchor="middle"><text x="299" y="56" font-size="21" opacity=".55">The cold edit.</text></g>
+</svg>

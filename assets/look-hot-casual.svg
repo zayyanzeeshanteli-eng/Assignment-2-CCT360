@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 670" role="img" aria-label="hot casual fashion illustration">
+<defs><filter id="sh"><feGaussianBlur stdDeviation="12"/></filter></defs>
+<ellipse cx="305" cy="649" rx="150" ry="13" fill="#574b40" opacity=".12" filter="url(#sh)"/>
+<g transform="translate(13 7) rotate(-2 302 330)">
+<path d="M202 388 Q300 404 400 388 L399 489 L324 497 L303 457 L276 497 L200 490 Z" fill="#b8b0a1" stroke="#706459" stroke-width="3"/><path d="M303 400 L303 457" stroke="#796b60" stroke-width="3"/><path d="M205 418 L396 418" stroke="white" opacity=".25" stroke-width="3"/>
+<path d="M215 113 L269 89 Q301 123 334 89 L387 113 L431 185 L393 204 L366 164 L372 339 Q298 358 227 339 L233 164 L204 204 L166 185 Z" fill="#f7f2e5" stroke="#84796f" stroke-width="3"/><path d="M270 91 Q300 141 333 91" fill="none" stroke="#e5c1aa" stroke-width="9"/><path d="M228 323 Q301 331 370 323" stroke="#988c81" stroke-width="3" fill="none"/>
+<g transform="translate(0 0)"><path d="M78 526 Q78 503 105 503 L160 503 Q180 503 183 528 L191 589 Q135 607 73 590 Z" fill="#cf8d72" stroke="#685347" stroke-width="3"/><path d="M103 505 Q107 460 135 460 Q162 460 166 506" stroke="#685347" stroke-width="6" fill="none"/><path d="M102 547 L160 547" stroke="white" opacity=".35" stroke-width="2"/></g>
+<path d="M268 589 L312 589 Q319 611 335 621 L337 642 Q277 655 257 640 L253 626 Z" fill="#b29168" stroke="#564a40" stroke-width="3"/><path d="M345 589 L386 589 L397 625 L417 633 L416 644 Q363 657 339 643 L336 625 Z" fill="#b29168" stroke="#564a40" stroke-width="3"/><path d="M257 636 Q291 642 335 637 M342 638 Q373 643 415 637" stroke="#eee5db" stroke-width="4"/>
+</g>
+<g fill="#544f46" font-family="Georgia,serif" font-style="italic" text-anchor="middle"><text x="299" y="56" font-size="21" opacity=".55">The hot edit.</text></g>
+</svg>
